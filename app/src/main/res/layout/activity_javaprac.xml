@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nikhil.quizbee.javaprac">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvjp1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnjp1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtvjp1"
+        android:layout_centerHorizontal="true"
+        android:textSize="10sp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnjp2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnjp1"
+        android:layout_alignStart="@+id/btnjp1"
+        android:textSize="10sp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnjp3"
+        android:layout_below="@+id/btnjp2"
+        android:layout_alignStart="@+id/btnjp2"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnjp4"
+        android:layout_below="@+id/btnjp3"
+        android:layout_alignStart="@+id/btnjp3"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgbtnjp1"
+        android:background="@mipmap/nextclick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="34dp"/>
+</RelativeLayout>

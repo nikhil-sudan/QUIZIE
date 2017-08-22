@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nikhil.quizbee.Topics">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" General Knowledge"
+        android:id="@+id/txtv31"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Practice"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/btn31"
+        android:layout_below="@+id/txtv31"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="Take Quiz"
+        android:id="@+id/btn32"
+        android:layout_above="@+id/txtv32"
+        android:layout_toEndOf="@+id/txtv34" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indian Geography "
+        android:id="@+id/txtv32"
+        android:layout_below="@+id/btn31"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Practice"
+        android:id="@+id/btn33"
+        android:layout_below="@+id/txtv32"
+        android:layout_alignStart="@+id/btn31" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Take Quiz"
+        android:id="@+id/btn34"
+        android:layout_alignBottom="@+id/btn33"
+        android:layout_alignEnd="@+id/btn32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indain History "
+        android:id="@+id/txtv33"
+        android:textSize="20sp"
+        android:layout_below="@+id/btn33"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Practice"
+        android:id="@+id/btn35"
+        android:layout_below="@+id/txtv33"
+        android:layout_alignStart="@+id/btn33" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Take Quiz"
+        android:id="@+id/btn36"
+        android:layout_below="@+id/txtv33"
+        android:layout_alignStart="@+id/btn34" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:id="@+id/txtv34"
+        android:layout_below="@+id/btn35"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Practice"
+        android:id="@+id/btn37"
+        android:layout_below="@+id/txtv34"
+        android:layout_alignStart="@+id/btn35" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Take quiz"
+        android:id="@+id/btn38"
+        android:layout_below="@+id/txtv34"
+        android:layout_alignEnd="@+id/btn36" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android "
+            android:id="@+id/txtv35"
+            android:textSize="20sp"
+            android:layout_below="@+id/btn37"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Take Quiz"
+            android:id="@+id/btn39"
+            android:layout_below="@+id/txtv35"
+            android:layout_alignEnd="@+id/btn38"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Practice"
+            android:id="@+id/btn392"
+            android:layout_below="@+id/txtv35"
+            android:layout_alignStart="@+id/btn37"/>
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
